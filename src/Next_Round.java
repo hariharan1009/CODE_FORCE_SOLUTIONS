@@ -10,17 +10,11 @@ public class Next_Round {
             a[i]=sc.nextInt();
         }
         int c=0;
-        int zv=0;
-        for(int i=0;i<n;i++){
-            if(a[i]>=a[x-1]){
+        int xv =a[x-1];
+        for(int i:a){
+            if(xv<=i && i>0){
                 c++;
             }
-            if(a[i]==0){
-                zv++;
-            }
-        }
-        if(zv==(n-1)){
-            c=0;
         }
         System.out.print(c);
     }
