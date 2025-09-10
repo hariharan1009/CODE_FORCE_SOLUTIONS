@@ -5,7 +5,7 @@ public class Calculating_Function {
         Scanner sc=new Scanner(System.in);
         String a=sc.next();
         long n = Long.parseLong(a);
-        if(n%2==0) System.out.println(n/2);
+        if(n%2==0) System.out.println(  n/2);
         else System.out.println(-((n/2)+1));
     }
 }
