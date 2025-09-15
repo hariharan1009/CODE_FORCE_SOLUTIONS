@@ -5,6 +5,7 @@ public class A_Team {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int co=0;
+        
         while(n-->0){
             int a=sc.nextInt();
             int b=sc.nextInt();
