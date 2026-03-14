@@ -14,8 +14,6 @@ public class sam2 {
                 if(Character.isDigit(str.charAt(i+1))){
                     n=n*10+str.charAt(i);
                 }
-
-
             }
         }
         System.out.print(n);
